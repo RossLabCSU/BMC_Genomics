@@ -1,4 +1,4 @@
-# GENOME_BIOLOGY Analyses
+# GENOME_BIOLOGY
 
 All scripts and data necessary to reproduce the analyses in Cascarina and Ross (2019) *Genome Biology* (\*Link to paper when published) are provided in the sub-directories of this repository, along with specific README instructions for each set of analyses. All analyses require the modified Prion Aggregation Prediction Algorithm (mPAPA.py) in the main GENOME_BIOLOGY repository.
 
