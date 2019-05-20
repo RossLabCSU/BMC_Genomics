@@ -1,5 +1,4 @@
 
-import pickle
 import random
 from itertools import combinations
 from Bio import SeqIO
