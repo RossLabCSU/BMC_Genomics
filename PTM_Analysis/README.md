@@ -15,8 +15,9 @@ Seaborn
 ### Instructions
 1. Download mPAPA.py
 2. Download all files in GENOME_BIOLOGY/PTM_Analysis
-3. Navigate to appropriate folder via command line.
-4. Run the following commands in-sequence (NOTE: each run must be completed before issuing the next command):
+3. Uncompress site_table.tsv file (contains PTM information downloaded from ActiveDriverDB).
+4. Navigate to appropriate folder via command line.
+5. Run the following commands in-sequence (NOTE: each run must be completed before issuing the next command):
 
 >\>python mPAPA.py --threshold 0.0 -o Human_Protein_Seqs_ActiveDriverDB_PAPA_results.tsv Human_Protein_Seqs_ActiveDriverDB.FASTA
 
