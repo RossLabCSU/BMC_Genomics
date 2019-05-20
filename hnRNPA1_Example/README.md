@@ -1,7 +1,7 @@
 
 # Reproducing hnRNPA1 Plotting
 
-The following commands will reproduce the PTM mapping and plotting in Fig 6
+The following commands will reproduce the PTM mapping and plotting in Fig 6.
 
 ### Dependencies and Required Files
 Scripts used in these analyses rely on the following external dependencies:\
