@@ -14,9 +14,10 @@ Additional file 4 (from PTM_Analysis pipeline)
 ### Instructions
 1. Download mPAPA.py
 2. Download all files in GENOME_BIOLOGY/hnRNPA1_Example
-3. Copy Additional file 4 (from PTM_Analysis pipeline) into the folder containing the hnRNPA1 scripts.
-4. Navigate to appropriate folder via command line.
-5. Run the following commands in-sequence (NOTE: each run must be completed before issuing the next command):
+3. Copy "Additional file 4.tsv" (from PTM_Analysis pipeline) into the folder containing the hnRNPA1 scripts.
+4. Uncompress the "Human_proteome_with_SNVs.FASTA" sequence file
+5. Navigate to appropriate folder via command line.
+6. Run the following commands in-sequence (NOTE: each run must be completed before issuing the next command):
 
 >\>python GENERATE_HNRNPA1_FASTA.py Human_proteome_with_SNVs.FASTA
 
