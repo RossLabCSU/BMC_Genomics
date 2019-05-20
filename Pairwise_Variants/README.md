@@ -18,12 +18,14 @@ Pandas
 4. Navigate to appropriate folder via command line.
 5. Run the following commands in-sequence (NOTE: each run must be completed before issuing the next command):
 
->\>python mPAPA.py --threshold 0.0 -o NextProt_proteome_PAPA_results.tsv nextprot_all.peff
+>\>python GENERATE_NEXTPROT_FASTA.py nextprot_all.peff
 
->\>python GENERATE_NEXTPROT_PAIRWISE_VARIANT_SEQS.py NextProt_proteome_PAPA_results.tsv nextprot_all.peff
+>\>python mPAPA.py --threshold 0.0 -o NextProt_proteome_mPAPA_results.tsv NextProt_protein_sequences.FASTA
 
->\>python mPAPA.py --threshold 0.0 -o NextProt_PairwiseVariant_ProteinSeqs_PAPA_results.tsv NextProt_PairwiseVariant_ProteinSeqs.FASTA
+>\>python GENERATE_NEXTPROT_PAIRWISE_VARIANT_SEQS.py NextProt_proteome_mPAPA_results.tsv nextprot_all.peff
 
->\>python GET_NEXTPROT_PAIRWISE_VARIANT_SCORES.PY NextProt_proteome_PAPA_results.tsv NextProt_PairwiseVariant_ProteinSeqs_PAPA_results.tsv
+>\>python mPAPA.py --threshold 0.0 -o NextProt_PairwiseVariant_ProteinSeqs_mPAPA_results.tsv NextProt_PairwiseVariant_ProteinSeqs.FASTA
+
+>\>python GET_NEXTPROT_PAIRWISE_VARIANT_SCORES.PY NextProt_proteome_mPAPA_results.tsv NextProt_PairwiseVariant_ProteinSeqs_mPAPA_results.tsv
 
 NOTE: Generating pairwise variants and running mPAPA for *all* pairwise variants may require parallel computing, but representative distributions of PAPA scores and PAPA score ranges depicted in Fig 2 can be obtained using only a subset of variants.
