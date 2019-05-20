@@ -1,16 +1,16 @@
 
-#README for Reproducing ClinVar Disease-Associated Mutant Analysis
+# README for Reproducing ClinVar Disease-Associated Mutant Analysis
 
-##Analysis pipeline for ClinVar SNVs
+## Analysis pipeline for ClinVar SNVs
 The following commands will reproduce all figures and additional files pertaining to the ClinVar disease-associated mutations within human PrLDs (Fig 4A, Fig 4B, and Additional file 3).
 
-###Dependencies
+### Dependencies
 Scripts used in these analyses rely on the following external dependencies:
 Biopython
 Matplotlib
 Seaborn
 
-###Instructions
+### Instructions
 1. Download mPAPA.py
 2. Download all files in GENOME_BIOLOGY/Disease_Associated_Mutants
 3. Extract 'variant_summary.txt' from compressed file
