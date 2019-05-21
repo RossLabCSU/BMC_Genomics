@@ -225,7 +225,7 @@ def output_nextprot_summary(minmax_scores, orig_scores, var_scores):
 def main(orig_papa_results_file, var_papa_results_file):
 
     # orig_scores = get_orig_scores(orig_papa_results_file)
-    var_scores, minmax_scores, orig_scores = get_var_scores(var_papa_results_file)
+    var_scores, minmax_scores, orig_scores = get_scores(var_papa_results_file)
     
     #Plot Fig 2A
     plot_num_unique_scores_histo(var_scores)
