@@ -253,7 +253,7 @@ def plot_fig4a(small_df, plaac_positives):
     plt.plot([0.05 for i in range(len(common_name))], color='0.2', linestyle='--')
     fig = plt.gcf()
     fig.set_size_inches(15, 7.5)
-    plt.savefig('Fig 4a.tiff', bbox_inches='tight', dpi=600)
+    plt.savefig('Fig 4A.tiff', bbox_inches='tight', dpi=600)
     plt.close()
     
 
@@ -288,7 +288,7 @@ def plot_fig4b(small_df, plaac_positives):
     plt.plot([0.05 for i in range(len(common_name))], color='0.2', linestyle='--')
     fig = plt.gcf()
     fig.set_size_inches(10, 5)
-    plt.savefig('Fig 4b.tiff', bbox_inches='tight', dpi=600)
+    plt.savefig('Fig 4B.tiff', bbox_inches='tight', dpi=600)
     plt.close()
     
     
