@@ -236,7 +236,7 @@ def get_plaac_prld_boundaries(plaac_results_file):
     Each value = (PrLD_start, PrLD_end)
     """
     
-    h = open('Human_Protein_Seqs_Corresponding_to_PTM_dataset_PLAAC_Output.csv')
+    h = open(plaac_results_file)
     
     prld_boundaries = {}
     
