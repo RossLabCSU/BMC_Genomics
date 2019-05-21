@@ -88,10 +88,6 @@ def plotting_v3(protein_name, prot_dict, foldindex_dict, ptm_positions):
 
         #get coordinates for papascores vs protein position for predicted ordered and disordered regions
         xvals_lol, yvals_lol, xvals_ordered_regions_lol, yvals_ordered_regions_lol = split_list_v2(papa_scores, foldindex_scores)
-        print('Xvals disordered regions:')
-        print(xvals_lol)
-        print('Xvals ordered regions:')
-        print(xvals_ordered_regions_lol)
         if len(xvals_lol) == 0:
             continue
 
