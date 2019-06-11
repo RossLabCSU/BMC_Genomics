@@ -13,7 +13,7 @@ Pandas
 
 ### Instructions
 1. Download mPAPA.py
-2. Download all files in GENOME_BIOLOGY/Pairwise_Variants
+2. Download all files in CELL_REPORTS/Pairwise_Variants
 3. Extract "nextprot_all.peff" from compressed file
 4. Navigate to appropriate folder via command line.
 5. Run the following commands in-sequence (NOTE: each run must be completed before issuing the next command):
