@@ -11,7 +11,7 @@ Seaborn
 
 ### Instructions
 1. Download mPAPA.py
-2. Download all files in GENOME_BIOLOGY/Disease_Associated_Mutants
+2. Download all files in CELL_REPORTS/Disease_Associated_Mutants
 3. Extract 'variant_summary.txt' from compressed file
 4. Navigate to appropriate folder via command line.
 5. Run the following commands in-sequence (NOTE: each run must be completed before issuing the next command):
