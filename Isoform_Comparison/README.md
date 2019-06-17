@@ -11,7 +11,7 @@ Seaborn
 
 ### Instructions
 1. Download mPAPA.py
-2. Download all files in CELL_REPORTS/Isoform_Comparison
+2. Download all files in BMC_Genomics/Isoform_Comparison
 3. Navigate via command line to appropriate folder containing downloaded files.
 4. Run the following commands in-sequence (NOTE: each run must be completed before issuing the next command):
 
